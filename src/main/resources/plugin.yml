@@ -1,0 +1,8 @@
+name: RCore
+version: '${project.version}'
+main: relismdev.cf.rcore.RCore
+api-version: 1.18
+prefix: RCore
+authors: [ Relism ]
+description: Core plugin and soft dependency of Relism's Plugins
+website: relismdev.cf
