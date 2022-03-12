@@ -11,6 +11,7 @@ public final class RCore extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        //why dont u say so
         System.out.println("Initialized RTest!");
         getServer().getPluginManager().registerEvents(new blockPlacing(), this);
         getServer().getPluginManager().registerEvents(new blockBreaking(), this);
